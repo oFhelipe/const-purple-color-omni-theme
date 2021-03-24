@@ -1,0 +1,17 @@
+{
+  "editor.semanticTokenColorCustomizations": {
+    "[Omni]": {"enabled": true}
+  },
+  "editor.tokenColorCustomizations": {
+    "[Omni]": {
+      "textMateRules": [
+        {
+          "scope": ["variable.other.constant", "variable.other.enummember"],
+          "settings": {
+            "foreground": "#988BC7"
+          }
+        }
+      ]
+    }
+  }
+}
